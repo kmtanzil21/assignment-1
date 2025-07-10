@@ -142,4 +142,25 @@ body{
      width: 1140px;
     height: 697px;
     margin: 0 auto;
+    margin-bottom: 100px;
+}
+.touch{
+    display: flex;
+    justify-content: space-between;
+    width: 1140px;
+    height: 632px;
+    margin: 0 auto;
+}
+.touch-text{
+    align-items: center;
+    padding-top: 100px;
+}
+.touch-form form input,textarea{
+    width: 497px;
+    height: 70px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.bt-width{
+    width: 497px;
 }
