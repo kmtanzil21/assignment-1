@@ -38,3 +38,22 @@
     text-align: center;
     margin-bottom: 200px;
 }
+.action{
+    width: 1140px;
+    height: 328px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.action{
+    display: flex;
+    margin-bottom: 200px;
+
+}
+.support-text{
+    margin-top: 50px;
+}
+.imagee{
+    border: none;
+    border-radius: 20px;
+}
