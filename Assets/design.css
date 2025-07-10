@@ -57,3 +57,20 @@
     border: none;
     border-radius: 20px;
 }
+.productive-user{
+    width: 1140px;
+    height: 306px;
+    margin: 0 auto;
+    background-color:#EEF0FF;
+}
+.sections{
+    display: flex;
+    justify-content: space-around;
+}
+.users{
+    text-align: center;
+    padding-top: 20px;
+}
+.color{
+    color: #4E47FF;
+}
