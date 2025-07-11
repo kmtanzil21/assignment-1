@@ -27,6 +27,7 @@
     color: white;
     padding: 12px 36px;
     border-radius: 5px;
+    cursor: pointer;
 
 }
 .loggo{
@@ -95,6 +96,8 @@ body{
     background-color: white;
     border-radius: 10px;
     padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
 
 }
 .section-area{
@@ -119,7 +122,6 @@ body{
 .workflow{
    
     background-color: white;
-    
     text-align: center;
     padding: 71px 150px;
     display: block;
@@ -128,7 +130,8 @@ body{
 .workflow img{
     display: block;
     text-align: center;
-    padding-top: 20px;
+    /* padding-top: 20px; */
+    margin-top: 20px;
     width: 840px;
     height: 365px;
     /* justify-content: center; */
@@ -137,6 +140,7 @@ body{
 }
 .bt-style:hover{
     background-color: yellow;
+    color: black;
 }
 
 .workflow-section{
@@ -148,6 +152,12 @@ body{
 .workflow-text h1{
     font-size: 50px;
     font-weight: bold;
+    margin-bottom: 20px;
+}
+.workflow-text p{
+    margin-bottom: 20px;
+    color: #B3B3B3;
+    font-weight: 500;
 }
 .touch{
     display: flex;
@@ -158,16 +168,30 @@ body{
 }
 .touch-text{
     align-items: center;
-    font-size: 70px;
+    font-size: 65px;
+    width: 528px;
+    height: 232px;
 }
-.touch-form form input,textarea{
+.touch-form {
     width: 497px;
-    height: 70px;
+    height: 490px;
     margin-bottom: 20px;
     margin-top: 10px;
 }
 .bt-width{
-    width: 503px;
+    width: 100%;
+    height: 70px;
+    background-color: #4E47FF;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.bt-width:hover{
+    background-color: yellow;
+    color: black;
 }
 
 
@@ -205,9 +229,10 @@ body{
     
 }
 
-.center-div h1{
-    font-size: 60px;
+.center-div strong{
+    font-size: 100px;
     color: #4E47FF;
+    font-weight: 700;
 }
 
 
@@ -309,6 +334,8 @@ body{
     padding: 50px 50px;
     background-color: #EEF0FF;
     display: flex;
+    border-radius: 20px;
+ 
     /* align-items: center; */
     justify-content: center;
     /* text-align: center; */
@@ -340,4 +367,46 @@ body{
 .center{
     text-align: center;
     color: #000000;
+}
+.reviewer-date span{
+    display: block;
+}
+.r-name{
+    color: #757575;
+    font-size:20px;
+
+}
+.r-date{
+    margin-top: 5px;
+    /* margin-bottom: 20px; */
+    color: #B3B3B3;
+    
+}
+
+.touch-form input[type='text'], .touch-form input[type='email']{
+    width: 497px;
+    height: 70px;
+    border-radius: 10px;
+    border: none;
+    color:#B3B3B3;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    
+}
+
+textarea{
+    width: 497px;
+    height: 135px;
+    background-color: white;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+
+}
+.touch-form label{
+    color: black;
+    font-weight: bold;
+
 }
